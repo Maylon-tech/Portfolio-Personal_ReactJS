@@ -1,0 +1,33 @@
+#socialContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+#socialContent .social-btn {
+  color: #eee;
+  padding: 0.6rem;
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#socialContent #linkedin {
+  color: #0072b1;
+}
+#socialContent #github {
+  color: #111;
+}
+#socialContent #instagram {
+  color: #bc2a8d;
+}
+#socialContent :hover {
+  background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+}
+#socialContent :hover > svg {
+  color: #fff;
+}/*# sourceMappingURL=socialcontent.css.map */

@@ -1,0 +1,12 @@
+#information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: columns;
+  padding: 1rem;
+  background-color: #1d1d1d;
+  margin-bottom: 2rem;
+  width: 80%;
+  text-align: left;
+  border-radius: 5px;
+}/*# sourceMappingURL=infocontainer.css.map */
