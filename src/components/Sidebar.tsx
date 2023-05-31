@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Avatar from '../img/profile.png'
 import "../styles/components/sidebar.sass"
 import SocialContent from './SocialContent'

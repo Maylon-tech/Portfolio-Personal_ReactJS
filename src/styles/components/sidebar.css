@@ -9,9 +9,11 @@
 }
 #sidebar img {
   max-width: 70%;
-  border-raidius: 10px;
+  width: 160px;
+  border-raidius: 50%;
   position: absolute;
-  top: -3rem;
+  top: 1rem;
+  border: 2px solid rgb(221, 36, 118);
 }
 #sidebar .title {
   color: #a6a6a6;

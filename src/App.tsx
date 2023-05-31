@@ -7,7 +7,7 @@ import "./styles/components/app.sass"
 const App = () => {
   return (
     <div id='portfolio'>
-        <h1>Nemoto</h1>
+        <h1>Nemoto Mailon Massao</h1>
 
         <Sidebar />
         <MainContent />

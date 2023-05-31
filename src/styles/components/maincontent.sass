@@ -6,3 +6,36 @@
     flex: 2 1 0
     border-radius: variables.$container-border-radius
     padding: 3rem
+
+    section 
+        display: flex
+        flex-direction: column
+
+    h2 
+        color: variables.$text-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        display: flex
+        align-items: center
+        justify-content: start
+        gap: 1rem
+
+        &::after
+            content: ''
+            background: variables.$gradient
+            width: 30%
+            height: 3px
+
+    p
+        color: variables.$text-color-secondary
+        margin-bottom: 1rem
+        line-height: 1.4rem
+
+    
+    .btn
+        padding: 1rem 1.2rem
+        color: variables.$text-color
+        background: variables.$gradient
+        text-decoration: none
+        border-radius: 3rem
+        width: 20%

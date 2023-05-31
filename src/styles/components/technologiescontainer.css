@@ -1,0 +1,49 @@
+.technolgy-container {
+  margin-bottom: 1rem;
+}
+.technolgy-container .technology-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.technolgy-container .technology-grid .technology-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid #333;
+  width: 45%;
+  border-radius: 5px;
+}
+.technolgy-container .technology-grid .technology-card .icons {
+  border: 1px solid orange;
+}
+.technolgy-container .technology-grid .technology-card #html svg {
+  color: #e44d26;
+}
+.technolgy-container .technology-grid .technology-card #css svg {
+  color: #1572b6;
+}
+.technolgy-container .technology-grid .technology-card #js svg {
+  color: #f0db4f;
+}
+.technolgy-container .technology-grid .technology-card #node svg {
+  color: #83cd29;
+}
+.technolgy-container .technology-grid .technology-card #mysql svg {
+  color: #00618a;
+}
+.technolgy-container .technology-grid .technology-card #react svg {
+  color: #61dafb;
+}
+.technolgy-container .technology-grid .technology-card .tech-info {
+  border: 2px solid white;
+  padding: 1rem;
+}
+.technolgy-container .technology-grid .technology-card .tech-info h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.technolgy-container .technology-grid .technology-card .tech-info svg {
+  font-size: 6rem;
+}/*# sourceMappingURL=technologiescontainer.css.map */
